@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+    "scribbles-core",
+    "scribbles-service",
+]
+
+[profile.release]
+lto = "thin"
+
+[profile.bench]
+lto = "thin"
